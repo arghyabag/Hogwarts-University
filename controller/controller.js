@@ -14,7 +14,7 @@ passport.serializeUser((user, done) => done(null, user));
 passport.deserializeUser((user, done) => done(null, user));
 
 app.use(session({
-    secret: "8016976125",
+    secret: "134567809",
     resave: false,
     saveUninitialized: false,
 }));
